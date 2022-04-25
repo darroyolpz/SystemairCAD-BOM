@@ -9,6 +9,7 @@ Application.DisplayAlerts = False
 'Declare variables
 Dim bomFile As Variant
 Dim openBook As Workbook
+Dim rng As Range
 
 'Get next row in actual macro file
 NextRowMacro = Sheets(1).Cells(Cells.Rows.Count, 2).End(xlUp).Row + 1
@@ -56,6 +57,12 @@ If bomFile <> False Then
     'Close BOM file as usual
     bomBook.Close False
 End If
+
+'Remove --- items
+Set rng = ThisWorkbook.Sheets(1).Range("B2:I" & NextRowMacro - 1)
+rng.AutoFilter Field:=2, Criteria1:="---"
+rng.Offset(1, 0).SpecialCells(xlCellTypeVisible).EntireRow.Delete
+ActiveSheet.AutoFilterMode = False
 
 'Done message
 MsgBox ("Done bro!")
