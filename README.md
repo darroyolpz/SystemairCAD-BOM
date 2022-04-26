@@ -2,7 +2,7 @@
 
 ## Background
 
-Spare parts and service represent a big chunk of the revenue of a company. In fact, many companies sacrifies profits in the product sold in exchange for future concurrent revenue due to maintenance, spare parts, etc. Contribution margin on these after-sales product are usually quite high, normally double or triple the standard margin.
+Spare parts and service represent a big chunk of the revenue of a company. In fact, many companies sacrifies profits in the product sold in exchange for future recurrent revenue due to maintenance, spare parts, etc. Contribution margin on these after-sales product are usually quite high, normally double or triple the standard margin.
 
 This business model can be a game-changer for many companies fighting for medium and big projects, but they also have to be efficient at quoting their products, and this is where the situation gets tricky for many of them.
 
